@@ -1,8 +1,30 @@
+:root {
+    --color-primary: #08A6E4;
+    --color-primary-shadow: rgba(7, 172, 230, .16);
+    --color-redish: #FB3B64;
+    --color-green: #55DFB4;
+    --color-black: #000000;
+    --color-gray: #A5A5A5;
+    --color-light-grey: #F7F7F7;
+    --color-white: #FFFFFF;
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Open Sans' sans-serif;
+    font-family: var(--font-open-sans);
 }
 
-h1, h2, h3 {
-    font-family: 'Raleway' sans-serif;
+a {
+    text-decoration: none;
 }
 
+.container {
+    max-width: 1352px;
+}
